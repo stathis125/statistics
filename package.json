@@ -1,0 +1,23 @@
+{
+  "name": "statistics-tracker-api",
+  "version": "1.0.0",
+  "description": "Dokimes",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "watch": "nodemon app"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "keywords": [],
+  "author": "Tsanakas",
+  "license": "ISC"
+}
