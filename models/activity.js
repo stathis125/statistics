@@ -1,10 +1,11 @@
 const mongoose = require('mongoose');
 
-let Schema = mongoose.Schema;
+const Schema = mongoose.Schema;
 
 const activitySchema = new Schema({
     activity_name: String,
     quantity: Number
+    // Date
 }, {
         timestamps: true
     }
