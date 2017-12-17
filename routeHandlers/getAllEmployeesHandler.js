@@ -1,7 +1,7 @@
-const Activity = require('../models/activity');
+const Employee = require('../models/employee');
 
-function getAllActivitiesHandler(req, res) {
-    Activity.find({})
+function getAllEmployeesHandler(req, res) {
+    Employee.find({})
         .then(activities => res.json(activities))
         .catch(err => {
             console.error(err);
@@ -9,4 +9,4 @@ function getAllActivitiesHandler(req, res) {
         });
 }
 
-module.exports = getAllActivitiesHandler;
+module.exports = getAllEmployeesHandler;

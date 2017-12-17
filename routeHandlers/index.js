@@ -1,8 +1,8 @@
 /* eslint global-require: "off" */
 module.exports = {
-    getAllActivitiesHandler: require('./getAllActivitiesHandler'),
-    getActivityById: require('./getActivityById'),
-    putUpdateActivity: require('./putUpdateActivity'),
-    deleteActivityById: require('./deleteActivityById'),
-    postCreateActivity: require('./postCreateActivity')
+    getAllEmployeesHandler: require('./getAllEmployeesHandler'),
+    getEmployeeById: require('./getEmployeeById'),
+    putUpdateEmployee: require('./putUpdateEmployee'),
+    deleteEmployeeById: require('./deleteEmployeeById'),
+    postCreateEmployee: require('./postCreateEmployee')
 };
